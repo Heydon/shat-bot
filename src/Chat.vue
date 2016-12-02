@@ -46,7 +46,7 @@
           severity3: [
             'I\'m clenching here.',
             'Urgh, my guts are fucked.',
-            'Gotta go potty pretty bad now.',
+            'I wanna go potty pretty bad now.',
             'Seriously though. Gotta shit.',
             'Boy, this shit really wants out.',
             'I\'m scared I\'m going to soil myself.'
@@ -168,7 +168,7 @@
 
           console.log('responseType: ', this.responseType);
 
-          this.pushMessage('User', newMessage);
+          this.pushMessage('You', newMessage);
           this.scrollDown();
           input.value = '';
           window.clearTimeout(this.waiting);

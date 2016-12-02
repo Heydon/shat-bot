@@ -68,7 +68,7 @@ h1, form {
   width: 60%;
 }
 
-.chat .User {
+.chat .You {
   float: right;
 }
 
